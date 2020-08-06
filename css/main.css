@@ -85,7 +85,6 @@ video{
 	padding-top:45%;
 	background-color: rgba(59, 67, 76, 0.7);
 }
-
 .fullscreen-bg__video {
 	position: absolute;
 	top: 0;
@@ -112,6 +111,20 @@ video{
 	color:#fff;
 	font-size: 30px;
 	margin-bottom: 50px;
+}
+.link {
+	display: flex;
+	justify-content: center;
+	top: 50px;
+	position: relative;
+}
+.link a {
+	color: #fff;
+	border-bottom: 1px #fff solid;
+	padding-bottom: 2px;
+}
+.mail {
+	margin-right: 50px;
 }
 .form-1 {
 	display: flex;
